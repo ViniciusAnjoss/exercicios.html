@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html> 
+	<body>
+		<center>
+		<h3> Cadastro de Currículo </h3>
+			<form method="post">
+				<table border="1" >
+					<tr>
+						<td>Nome Completo</td>
+						<td><input type="text"
+							 name="campoNome" 
+							 placeholder=" digite seu Nome"
+							 size="50"maxlength="50"></tr>
+					</tr>
+					<tr>
+						<td>É Estrangeiro</td>
+						<td><input type="checkbox" name="campoEstrangeiro"/> Sim
+							<input type="checkbox" name="campoEstrangeiro" checked />Não</td>><br>
+						</tr>
+						<tr>
+							<td>CPF/RG</td>
+							<td><input type="text"name="CPF"  placeholder=" digite seu CPF"maxlength="50">
+							<input name="RG" placeholder="Digite seu RG" maxlength="30" ></td>
+						</tr>
+						<td>Estado Civil</td>
+					<td>
+						<select name='campoCivil'>
+							<option value='Solteiro'> Solteiro
+							<option value='Casado'> Casado
+							<option value='Viuvo'> Viuvo
+							<option value='prefiro não informar ' selected> prefiro não informar 
+					<tr>
+						<tr>
+							<td>logradouro/Numero</td>
+							<td><input type="text"name="logradouro"  placeholder=" digite seu Endereço"maxlength="50">
+							<input  name="Numero" placeholder="Numero da Residencia" maxlength="30" ></td>
+						</tr>
+					<tr>
+						<td>CEP/Bairro</td>
+						<td><input name="campoCEP" placeholder=" digite seu CEP" maxlength="30" >
+							<input name="campoBairro" placeholder=" digite o nome do Bairro" maxlength="30" >
+						</td>
+					</tr>
+					 
+					<tr>
+						<td>Selecionar Cidade</td>
+						<td><input type="radio" name="campoCity" value="0" checked/>São Paulo
+							<input type="radio" name="campoCity" value="1"/> Rio de Janeiro<br>
+							<input type="radio" name="campoCity" value="2"/> Belo Horizonte
+							<input type="radio" name="campoCity" value="3"/> Curitiba<br>
+						</td>
+					<tr>
+						<td>Telefones</td>
+						<td><input name="campoTelefone" placeholder=" digite seu Telefone" maxlength="30" >
+							<input name="campotelefone" placeholder=" digite seu Telefone" maxlength="30" >
+						</td>
+
+					</tr>
+					<tr>
+						<td>e-mail</td>
+						<td><input name="E-mail" placeholder=" digite seu e-mail" maxlength="30" >
+						</td>
+
+					</tr>
+					<tr>
+						<td>Tipo De Vaga</td>
+						<td><input type="radio" name="campoNivel" value="0" checked/> Jovem Aprendiz<br>
+							<input type="radio" name="campoNivel" value="1"/> Estagio <br>
+							<input type="radio" name="campoNivel" value="2"/> CLT <br>
+							<input type="radio" name="campoNivel" value="3"/>Pessoa Jurídica<br>
+						</td>
+					</tr>
+					<td>Idioma</td>
+					<td><input  
+						name="Fala" 
+						placeholder=" Fala algum idioma?" 
+						maxlength="30" >
+						<input name="fala" placeholder="Fala algum idioma?" maxlength="30" >
+					</td>
+					<tr>
+						<td>Nivel de Idioma </td>
+						<td><input type="checkbox" name="campoIdioma" checked value="Basico"/> Basico <br>
+							<input type="checkbox" name="campoIdioma" value="Inglês"/> Intermediario<br>
+							<input type="checkbox" name="campoIdioma" value="Alemão"/> Avançado<br>
+							<input type="checkbox" name="campoIdioma" value="latim"/> Fluente<br>
+						</tr>
+					</tr>
+					<tr>
+						 <td>Possui Experiencia</td>
+						 <td><input type="checkbox" name="campo" checked value="Sim"/>Sim
+							<input type="checkbox" name="campoEx" value="Não"/>Não
+						 </td>
+					</tr>
+					<tr>
+						<td> Descreva Sua Experiencia </td>
+						<td>
+							<textarea name='campoObs' cols='46' rows='5'></textarea> <br/>
+						</td>
+					</tr>
+					<tr>
+						<td> objetivo profissional </td>
+						<td>
+							<textarea name='campoObs' cols='46' rows='5'></textarea> <br/>
+						</td>
+					</tr>
+					<td>Genero</td>
+					<td>
+						<select name='campoTime'>
+							<option value='Masculino'> Masculino
+							<option value='Feminino'> Feminino
+							<option value='não Binario'> Não Binario
+							<option value='prefiro não informar ' selected> prefiro não informar 
+					<tr>
+						
+						<td colspan="2" align="center">
+						<input type="submit" value="Enviar"
+							input type="reset" value="limpar"/>
+					</tr>
+				</table>
+				</center>
+	</body>
+</html>
