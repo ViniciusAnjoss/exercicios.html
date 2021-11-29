@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html> 
+	<body>
+		<h3> Cadastro </h3>
+			<form method="post">
+				<table border="1" >
+					<tr>
+						<td>Nome</td>
+						<td><input type="text"
+							 name="campoNome" 
+							 placeholder=" digite seu login"
+							 size="30"maxlength="50"></tr>
+					</tr>
+					<tr>
+						<td>Senha</td>
+						<td><input type="password" 
+							name="campoSenha" 
+							placeholder=" digite sua senha" 
+							maxlength="30" >
+						</td>
+					</tr>
+					<tr>
+						<td>nivel</td>
+						<td><input type="radio" name="campoNivel" value="0" checked/> iniciante<br>
+							<input type="radio" name="campoNivel" value="1"/> profissional<br>
+							<input type="radio" name="campoNivel" value="2"/>mestre <br>
+							<input type="radio" name="campoNivel" value="3"/>Sayajin<br>
+						</td>
+					</tr>
+					<tr>
+						<td>Idioma</td>
+						<td><input type="checkbox" name="campoIdioma" checked value="Português"/> Português<br>
+							<input type="checkbox" name="campoIdioma" value="Inglês"/> Inglês<br>
+							<input type="checkbox" name="campoIdioma" value="Alemão"/> Alemão<br>
+							<input type="checkbox" name="campoIdioma" value="latim"/> latim<br>
+						</tr>
+					</tr>
+					<tr>
+						<td>Observação</td>
+						<td><input type="checkbox" name="campoIdioma" checked value="Português"/> Português <br>
+							<input type="checkbox" name="campoIdioma" value="Inglês"/> Inglês<br>
+							<input type="checkbox" name="campoIdioma" value="Alemão"/> Alemão<br>
+							<input type="checkbox" name="campoIdioma" value="latim"/> latim<br>
+						</tr>
+					</tr>
+					<tr>
+						<td>Observação</td>
+						<td>
+							<textarea name='campoObs' cols='30' rows='5'></textarea> <br/>
+						</td>
+					</tr>
+					<td>Genero</td>
+					<td>
+						<select name='campoTime'>
+							<option value='Masculino'> Masculino
+							<option value='Feminino'> Feminino
+							<option value='não Binario'> não Binario
+							<option value='prefiro não informar ' selected> prefiro não informar 
+					<tr>
+						<td colspan="2" align="center">
+						<input type="submit" value="entrar"
+							input type="reset" value="limpar"/>
+					</tr>
+				</table>
+	</body>
+</html>
